@@ -1,0 +1,30 @@
+@keyframes rotation 
+    from 
+        transform: rotate(0deg)
+    to 
+        transform: rotate(360deg)
+    
+$color: #DF80AC
+$myWidth: 50%
+$myHeight: fit-content
+
+.MainDroit
+    width: $myWidth
+    height: $myHeight
+
+.circle 
+    width: 100px
+    height: 100px
+    background-color: #FFF
+    margin: 20px auto
+    display: block
+    border-radius: 50%
+    border-box: 5px solid #000
+    animation: rotation infinite 20s linear
+
+.MainDroit
+    background: $color
+
+.Title
+    width: 50%
+  
